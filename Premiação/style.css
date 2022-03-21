@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(19, 18, 18);
+  font-family: monospace;
+  color: white;
+}
+h1 {
+  color: white;
+}
+.desc {
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid;
+  max-width: 500px;
+}
+.texto {
+  font-size: 20px;
+}
+input {
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+  font-size: 18px;
+  align-items: right;
+}
+hr {
+  width: 200px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+button {
+  margin-top: 25px;
+  padding: 15px;
+  width: 415px;
+  border: none;
+  border-radius: 15px;
+  font-family: monospace;
+  font-size: 20px;
+
+  cursor: pointer;
+}
+button:hover {
+  background-color: yellow;
+}

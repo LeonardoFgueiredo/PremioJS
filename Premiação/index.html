@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="a.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.JS"></script>
+    <title>Premiação - Js</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <img style="margin-top: 50px" width="100px" src="a.png" alt="" />
+      <h1>Premiação do <span style="color: yellow">Concurso</span></h1>
+      <p class="desc">
+        Um prêmio em dinheiro será dividido entre os três primeiros colocados de
+        um concurso, em partes diretamente proporcionais aos pontos conseguidos
+        por eles. Mostre quanto receberá cada um dos premiados
+      </p>
+      <br />
+      <hr />
+      <br /><br />
+
+      <form>
+        <label class="texto"
+          >Digite o Número de pontos do Primeiro lugar:</label
+        >
+        <input
+          value="primeiro"
+          name="numero"
+          id="valorPrimeiro"
+          onfocus="this.value='';"
+        /><br /><br />
+
+        <label class="texto">Digite o Número de pontos do Segundo lugar:</label>
+        <input
+          value="segundo"
+          name="numero"
+          id="valorSegundo"
+          onfocus="this.value='';"
+        /><br /><br />
+
+        <label class="texto"
+          >Digite o Número de pontos do Terceiro lugar:</label
+        >
+        <input
+          value="terceiro"
+          name="numero"
+          id="valorTerceiro"
+          onfocus="this.value='';"
+        /><br /><br />
+
+        <label class="texto">Digite o valor do Prêmio:</label>
+        <input
+          value="Premio"
+          name="numero"
+          id="valorPremio"
+          onfocus="this.value='';"
+        /><br />
+
+        <label id="teste"></label>
+
+        <center><button onclick="distribuir()">Distribuir</button></center>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
